@@ -1,0 +1,85 @@
+# --------------------
+# OS FILES
+# --------------------
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# --------------------
+# GENERAL
+# --------------------
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+
+# Ignore dotenv environment files
+.env
+.env.*.local
+
+# Ignore compiled output
+dist/
+build/
+out/
+target/
+
+# --------------------
+# NODE.JS
+# --------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/
+
+# --------------------
+# PYTHON
+# --------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Python packaging
+*.egg-info/
+.eggs/
+
+# --------------------
+# IDE / EDITOR
+# --------------------
+# VSCode
+.vscode/
+.history/
+
+# JetBrains
+.idea/
+*.iml
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# --------------------
+# GIT
+# --------------------
+# Local git files
+.git/
+.gitignore~
